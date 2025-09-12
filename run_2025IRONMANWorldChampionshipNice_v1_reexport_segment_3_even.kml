@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <Schema name="CourseData" id="courseDataSchema">
+      <SimpleField type="float" name="distance"/>
+      <SimpleField type="integer" name="lap"/>
+      <SimpleField type="string" name="segmentID"/>
+      <SimpleField type="string" name="direction"/>
+      <SimpleField type="float" name="bearing"/>
+      <SimpleField type="float" name="grade"/>
+      <SimpleField type="float" name="latitude"/>
+      <SimpleField type="float" name="longitude"/>
+      <SimpleField type="string" name="cleanSegmentID"/>
+      <SimpleField type="string" name="cleanDirection"/>
+      <SimpleField type="integer" name="cleanSegmentNumber"/>
+      <SimpleField type="int" name="projectedArrivalTime_MPRO"/>
+      <SimpleField type="int" name="projectedArrivalTime_FPRO"/>
+    </Schema>
+    <Placemark>
+      <name>Course LineString</name>
+      <LineString>
+        <coordinates>7.2676776231670095,43.69497685323126,6.386621475219727 7.265194443429047,43.69487275722783,4.925108909606934 7.263952098899951,43.694831567403696,0 7.262714095304952,43.69474493053833,5.215194702148438 7.2602872170131185,43.69448945257299,5.405802249908447 7.25786607834015,43.6940830422184,5.598028659820557 7.255489804327563,43.693551157047544,5.905348777770996 7.253110924996148,43.6930254985928,5.187958240509033 7.250792277226959,43.69238333508227,4.792017936706543 7.248545269450398,43.691611844812826,4.860481739044189 7.246302397238568,43.690834092938594,5.390901565551758 7.244087036989469,43.69001682378246,6.342361450195312 7.242037423081313,43.68900011249524,4.648044586181641 7.240045331309512,43.6879234017485,4.464895725250244 7.23817962926783,43.68673586994897,4.139596462249756 7.2365275171218375,43.68539193056132,4.840696811676025 7.2349695939803516,43.68398994127661,3.695776224136353 7.233420916650688,43.682582535250404,4.45239782333374 7.231889542716658,43.681165283613566,4.408861637115479 7.230588916260395,43.679635692720645,5.04892110824585 7.229429060913447,43.67804479824902,4.870646476745605 7.228446688647963,43.67639288557413,5.158413410186768 7.227506790947188,43.67472766080537,5.422099590301514 7.226790138700999,43.67348224110374,0 7.226484895405247,43.67309103416293,5.063346862792969 7.22501947661649,43.671644073781295,5.144538879394531 7.22329309763103,43.67035004269609,4.771561145782471 7.22154311306681,43.66907233481877,5.177661418914795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>10.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">10.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-93.31737838138575</SimpleData>
+          <SimpleData name="elevation">6.39</SimpleData>
+          <SimpleData name="grade">0.76</SimpleData>
+          <SimpleData name="latitude">43.69497685323126</SimpleData>
+          <SimpleData name="longitude">7.2676776231670095</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848305</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851483</SimpleData>
+          <SimpleData name="heading">-93.32</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.2676776231670095,43.69497685323126,6.386621475219727</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10.800 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">10.800</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-94.07615078056443</SimpleData>
+          <SimpleData name="elevation">4.93</SimpleData>
+          <SimpleData name="grade">-0.73</SimpleData>
+          <SimpleData name="latitude">43.69487275722783</SimpleData>
+          <SimpleData name="longitude">7.265194443429047</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848357</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851539</SimpleData>
+          <SimpleData name="heading">-94.08</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.265194443429047,43.69487275722783,4.925108909606934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10.900 KM Calculated Turnaround</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">10.900</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-92.68</SimpleData>
+          <SimpleData name="elevation">0</SimpleData>
+          <SimpleData name="grade">0</SimpleData>
+          <SimpleData name="latitude">43.694831567403696</SimpleData>
+          <SimpleData name="longitude">7.263952098899951</SimpleData>
+          <SimpleData name="heading">-95.21</SimpleData>
+          <SimpleData name="isTurnaround">true</SimpleData>
+          <SimpleData name="isCalculatedTurnaround">true</SimpleData>
+          <SimpleData name="curvature">2.53</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848382</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851567</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.263952098899951,43.694831567403696,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11.000 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">11.000</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-98.28296225880977</SimpleData>
+          <SimpleData name="elevation">5.22</SimpleData>
+          <SimpleData name="grade">0.15</SimpleData>
+          <SimpleData name="latitude">43.69474493053833</SimpleData>
+          <SimpleData name="longitude">7.262714095304952</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848408</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851594</SimpleData>
+          <SimpleData name="heading">-98.28</SimpleData>
+          <SimpleData name="isTurnaround">true</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.262714095304952,43.69474493053833,5.215194702148438</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11.200 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">11.200</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-103.06934848694726</SimpleData>
+          <SimpleData name="elevation">5.41</SimpleData>
+          <SimpleData name="grade">0.1</SimpleData>
+          <SimpleData name="latitude">43.69448945257299</SimpleData>
+          <SimpleData name="longitude">7.2602872170131185</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848460</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851650</SimpleData>
+          <SimpleData name="heading">-103.07</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.2602872170131185,43.69448945257299,5.405802249908447</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11.400 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">11.400</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">10.600-11.600_inbound</SimpleData>
+          <SimpleData name="direction">reverse</SimpleData>
+          <SimpleData name="bearing">-107.2001040134466</SimpleData>
+          <SimpleData name="elevation">5.6</SimpleData>
+          <SimpleData name="grade">0.1</SimpleData>
+          <SimpleData name="latitude">43.6940830422184</SimpleData>
+          <SimpleData name="longitude">7.25786607834015</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848512</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851706</SimpleData>
+          <SimpleData name="heading">-107.2</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.25786607834015,43.6940830422184,5.598028659820557</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">11.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-106.9927258831718</SimpleData>
+          <SimpleData name="elevation">5.91</SimpleData>
+          <SimpleData name="grade">0.16</SimpleData>
+          <SimpleData name="latitude">43.693551157047544</SimpleData>
+          <SimpleData name="longitude">7.255489804327563</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848564</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851761</SimpleData>
+          <SimpleData name="heading">-106.99</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.255489804327563,43.693551157047544,5.905348777770996</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11.800 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">11.800</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-110.95783119865501</SimpleData>
+          <SimpleData name="elevation">5.19</SimpleData>
+          <SimpleData name="grade">-0.36</SimpleData>
+          <SimpleData name="latitude">43.6930254985928</SimpleData>
+          <SimpleData name="longitude">7.253110924996148</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848615</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851817</SimpleData>
+          <SimpleData name="heading">-110.96</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.253110924996148,43.6930254985928,5.187958240509033</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12.000 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">12.000</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-115.39956723672297</SimpleData>
+          <SimpleData name="elevation">4.79</SimpleData>
+          <SimpleData name="grade">-0.2</SimpleData>
+          <SimpleData name="latitude">43.69238333508227</SimpleData>
+          <SimpleData name="longitude">7.250792277226959</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848667</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851872</SimpleData>
+          <SimpleData name="heading">-115.4</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.250792277226959,43.69238333508227,4.792017936706543</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12.200 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">12.200</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-115.62032754592506</SimpleData>
+          <SimpleData name="elevation">4.86</SimpleData>
+          <SimpleData name="grade">0.04</SimpleData>
+          <SimpleData name="latitude">43.691611844812826</SimpleData>
+          <SimpleData name="longitude">7.248545269450398</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848719</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851928</SimpleData>
+          <SimpleData name="heading">-115.62</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.248545269450398,43.691611844812826,4.860481739044189</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12.400 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">12.400</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-117.02950326055694</SimpleData>
+          <SimpleData name="elevation">5.39</SimpleData>
+          <SimpleData name="grade">0.27</SimpleData>
+          <SimpleData name="latitude">43.690834092938594</SimpleData>
+          <SimpleData name="longitude">7.246302397238568</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848771</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757851983</SimpleData>
+          <SimpleData name="heading">-117.03</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.246302397238568,43.690834092938594,5.390901565551758</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">12.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-124.44984087617735</SimpleData>
+          <SimpleData name="elevation">6.34</SimpleData>
+          <SimpleData name="grade">0.48</SimpleData>
+          <SimpleData name="latitude">43.69001682378246</SimpleData>
+          <SimpleData name="longitude">7.244087036989469</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848822</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852039</SimpleData>
+          <SimpleData name="heading">-124.45</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.244087036989469,43.69001682378246,6.342361450195312</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12.800 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">12.800</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-126.7759324396812</SimpleData>
+          <SimpleData name="elevation">4.65</SimpleData>
+          <SimpleData name="grade">-0.85</SimpleData>
+          <SimpleData name="latitude">43.68900011249524</SimpleData>
+          <SimpleData name="longitude">7.242037423081313</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848874</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852095</SimpleData>
+          <SimpleData name="heading">-126.78</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.242037423081313,43.68900011249524,4.648044586181641</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13.000 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">13.000</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-131.3543281943363</SimpleData>
+          <SimpleData name="elevation">4.46</SimpleData>
+          <SimpleData name="grade">-0.1</SimpleData>
+          <SimpleData name="latitude">43.6879234017485</SimpleData>
+          <SimpleData name="longitude">7.240045331309512</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848926</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852150</SimpleData>
+          <SimpleData name="heading">-131.35</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.240045331309512,43.6879234017485,4.464895725250244</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13.200 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">13.200</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-138.3638037858268</SimpleData>
+          <SimpleData name="elevation">4.14</SimpleData>
+          <SimpleData name="grade">-0.16</SimpleData>
+          <SimpleData name="latitude">43.68673586994897</SimpleData>
+          <SimpleData name="longitude">7.23817962926783</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757848978</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852206</SimpleData>
+          <SimpleData name="heading">-138.36</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.23817962926783,43.68673586994897,4.139596462249756</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13.400 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">13.400</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-141.21469395009046</SimpleData>
+          <SimpleData name="elevation">4.84</SimpleData>
+          <SimpleData name="grade">0.35</SimpleData>
+          <SimpleData name="latitude">43.68539193056132</SimpleData>
+          <SimpleData name="longitude">7.2365275171218375</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849030</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852261</SimpleData>
+          <SimpleData name="heading">-141.21</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.2365275171218375,43.68539193056132,4.840696811676025</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">13.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-141.48815701701886</SimpleData>
+          <SimpleData name="elevation">3.7</SimpleData>
+          <SimpleData name="grade">-0.57</SimpleData>
+          <SimpleData name="latitude">43.68398994127661</SimpleData>
+          <SimpleData name="longitude">7.2349695939803516</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849081</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852317</SimpleData>
+          <SimpleData name="heading">-141.49</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.2349695939803516,43.68398994127661,3.695776224136353</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13.800 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">13.800</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-141.99471775466523</SimpleData>
+          <SimpleData name="elevation">4.45</SimpleData>
+          <SimpleData name="grade">0.38</SimpleData>
+          <SimpleData name="latitude">43.682582535250404</SimpleData>
+          <SimpleData name="longitude">7.233420916650688</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849133</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852372</SimpleData>
+          <SimpleData name="heading">-141.99</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.233420916650688,43.682582535250404,4.45239782333374</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.000 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.000</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-148.4102332774428</SimpleData>
+          <SimpleData name="elevation">4.41</SimpleData>
+          <SimpleData name="grade">-0.02</SimpleData>
+          <SimpleData name="latitude">43.681165283613566</SimpleData>
+          <SimpleData name="longitude">7.231889542716658</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849185</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852428</SimpleData>
+          <SimpleData name="heading">-148.41</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.231889542716658,43.681165283613566,4.408861637115479</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.200 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.200</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-152.19819931106812</SimpleData>
+          <SimpleData name="elevation">5.05</SimpleData>
+          <SimpleData name="grade">0.32</SimpleData>
+          <SimpleData name="latitude">43.679635692720645</SimpleData>
+          <SimpleData name="longitude">7.230588916260395</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849237</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852484</SimpleData>
+          <SimpleData name="heading">-152.2</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.230588916260395,43.679635692720645,5.04892110824585</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.400 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.400</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-156.72697336641306</SimpleData>
+          <SimpleData name="elevation">4.87</SimpleData>
+          <SimpleData name="grade">-0.09</SimpleData>
+          <SimpleData name="latitude">43.67804479824902</SimpleData>
+          <SimpleData name="longitude">7.229429060913447</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849288</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852539</SimpleData>
+          <SimpleData name="heading">-156.73</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.229429060913447,43.67804479824902,4.870646476745605</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-157.79299683421908</SimpleData>
+          <SimpleData name="elevation">5.16</SimpleData>
+          <SimpleData name="grade">0.15</SimpleData>
+          <SimpleData name="latitude">43.67639288557413</SimpleData>
+          <SimpleData name="longitude">7.228446688647963</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849340</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852595</SimpleData>
+          <SimpleData name="heading">-157.79</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.228446688647963,43.67639288557413,5.158413410186768</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.800 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.800</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-155.69519643156838</SimpleData>
+          <SimpleData name="elevation">5.42</SimpleData>
+          <SimpleData name="grade">0.13</SimpleData>
+          <SimpleData name="latitude">43.67472766080537</SimpleData>
+          <SimpleData name="longitude">7.227506790947188</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849392</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852650</SimpleData>
+          <SimpleData name="heading">-155.7</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.227506790947188,43.67472766080537,5.422099590301514</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14.950 KM Calculated Turnaround</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">14.950</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-157.35</SimpleData>
+          <SimpleData name="elevation">0</SimpleData>
+          <SimpleData name="grade">0</SimpleData>
+          <SimpleData name="latitude">43.67348224110374</SimpleData>
+          <SimpleData name="longitude">7.226790138700999</SimpleData>
+          <SimpleData name="heading">-150.56</SimpleData>
+          <SimpleData name="isTurnaround">true</SimpleData>
+          <SimpleData name="isCalculatedTurnaround">true</SimpleData>
+          <SimpleData name="curvature">6.79</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849431</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852692</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.226790138700999,43.67348224110374,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15.000 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">15.000</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-143.7757046577027</SimpleData>
+          <SimpleData name="elevation">5.06</SimpleData>
+          <SimpleData name="grade">-0.18</SimpleData>
+          <SimpleData name="latitude">43.67309103416293</SimpleData>
+          <SimpleData name="longitude">7.226484895405247</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849444</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852706</SimpleData>
+          <SimpleData name="heading">-143.78</SimpleData>
+          <SimpleData name="isTurnaround">true</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.226484895405247,43.67309103416293,5.063346862792969</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15.200 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">15.200</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-136.02031568227102</SimpleData>
+          <SimpleData name="elevation">5.14</SimpleData>
+          <SimpleData name="grade">0.04</SimpleData>
+          <SimpleData name="latitude">43.671644073781295</SimpleData>
+          <SimpleData name="longitude">7.22501947661649</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849495</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852761</SimpleData>
+          <SimpleData name="heading">-136.02</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.22501947661649,43.671644073781295,5.144538879394531</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15.400 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">15.400</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-135.2671743966871</SimpleData>
+          <SimpleData name="elevation">4.77</SimpleData>
+          <SimpleData name="grade">-0.19</SimpleData>
+          <SimpleData name="latitude">43.67035004269609</SimpleData>
+          <SimpleData name="longitude">7.22329309763103</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849547</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852817</SimpleData>
+          <SimpleData name="heading">-135.27</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.22329309763103,43.67035004269609,4.771561145782471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15.600 KM</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#courseDataSchema">
+          <SimpleData name="distance">15.600</SimpleData>
+          <SimpleData name="lap">1</SimpleData>
+          <SimpleData name="segmentID">11.600-15.800_outbound</SimpleData>
+          <SimpleData name="direction">forward</SimpleData>
+          <SimpleData name="bearing">-133.84195368421842</SimpleData>
+          <SimpleData name="elevation">5.18</SimpleData>
+          <SimpleData name="grade">0.21</SimpleData>
+          <SimpleData name="latitude">43.66907233481877</SimpleData>
+          <SimpleData name="longitude">7.22154311306681</SimpleData>
+          <SimpleData name="type">KM Marker</SimpleData>
+          <SimpleData name="projectedArrivalTime_MPRO">1757849599</SimpleData>
+          <SimpleData name="projectedArrivalTime_FPRO">1757852873</SimpleData>
+          <SimpleData name="heading">-133.84</SimpleData>
+          <SimpleData name="isTurnaround">false</SimpleData>
+          <SimpleData name="cleanSegmentID">10.500-15.750_evenSegment3</SimpleData>
+          <SimpleData name="cleanDirection">even</SimpleData>
+          <SimpleData name="cleanSegmentNumber">3</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>7.22154311306681,43.66907233481877,5.177661418914795</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
